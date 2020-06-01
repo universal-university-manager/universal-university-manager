@@ -14,7 +14,6 @@ namespace UUM.API.Unit.Tests
         public void Test()
         {
             Assert.Pass();
-
         }
     }
 }
