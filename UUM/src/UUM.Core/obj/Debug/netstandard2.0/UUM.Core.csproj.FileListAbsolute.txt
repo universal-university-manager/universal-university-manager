@@ -1,0 +1,9 @@
+C:\Users\jbezerra\Documents\APS\projects\ProjectWithEntity\UUM\src\UUM.Core\bin\Debug\netstandard2.0\UUM.Core.deps.json
+C:\Users\jbezerra\Documents\APS\projects\ProjectWithEntity\UUM\src\UUM.Core\bin\Debug\netstandard2.0\UUM.Core.dll
+C:\Users\jbezerra\Documents\APS\projects\ProjectWithEntity\UUM\src\UUM.Core\bin\Debug\netstandard2.0\UUM.Core.pdb
+C:\Users\jbezerra\Documents\APS\projects\ProjectWithEntity\UUM\src\UUM.Core\obj\Debug\netstandard2.0\UUM.Core.csprojAssemblyReference.cache
+C:\Users\jbezerra\Documents\APS\projects\ProjectWithEntity\UUM\src\UUM.Core\obj\Debug\netstandard2.0\UUM.Core.AssemblyInfoInputs.cache
+C:\Users\jbezerra\Documents\APS\projects\ProjectWithEntity\UUM\src\UUM.Core\obj\Debug\netstandard2.0\UUM.Core.AssemblyInfo.cs
+C:\Users\jbezerra\Documents\APS\projects\ProjectWithEntity\UUM\src\UUM.Core\obj\Debug\netstandard2.0\UUM.Core.csproj.CoreCompileInputs.cache
+C:\Users\jbezerra\Documents\APS\projects\ProjectWithEntity\UUM\src\UUM.Core\obj\Debug\netstandard2.0\UUM.Core.dll
+C:\Users\jbezerra\Documents\APS\projects\ProjectWithEntity\UUM\src\UUM.Core\obj\Debug\netstandard2.0\UUM.Core.pdb
