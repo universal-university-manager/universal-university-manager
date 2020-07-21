@@ -13,7 +13,7 @@ namespace UUM.ApiWeb.Controllers
         /// <summary>
         /// Logger properties
         /// </summary>
-        private readonly ILogger<RegisterController> _logger;
+        public ILogger<RegisterController> Logger { get; }
 
         /// <summary>
         /// Context properties
@@ -28,7 +28,7 @@ namespace UUM.ApiWeb.Controllers
         public RegisterController(UUMWebAPIContext context, ILogger<RegisterController> logger)
         {
             _context = context;
-            _logger = logger;
+            Logger = logger;
         }
 
         /// <summary>
