@@ -24,7 +24,12 @@ namespace UUM.ApiWeb.Controllers
         /// 
         /// </summary>
         /// <param name="context">Context instance</param>
-        public RegisterController(UUMWebAPIContext context) => _context = context;
+        /// <param name="logger">Logger instance</param>
+        public RegisterController(UUMWebAPIContext context, ILogger<RegisterController> logger)
+        {
+            _context = context;
+            _logger = logger;
+        }
 
         /// <summary>
         /// 
