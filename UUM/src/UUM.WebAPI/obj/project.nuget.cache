@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p3hQYtJ+JnAc0Vv9u26EYK+20LBs35wbky/BDb4wWwZad4h6msh4ICcjN15kxI6sycuRa9Zwd1neuxGj/LU+CA==",
+  "dgSpecHash": "SbO2JoHHAfi/hU59RijkORoaD7v5tCr2xnBf0I3bYqYhskqWfHAR2Gn9O2FhiwpH0ooI1aSKmiBtDAb7iBN6dg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jbezerra\\Documents\\APS\\projects\\ProjectWithEntity\\UUM\\src\\UUM.WebAPI\\UUM.ApiWeb.csproj",
+  "projectFilePath": "C:\\Users\\jbezerra\\Documents\\APS\\uumcode\\UUM\\src\\UUM.WebAPI\\UUM.ApiWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jbezerra\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.5\\microsoft.aspnetcore.cryptography.internal.3.1.5.nupkg.sha512",
     "C:\\Users\\jbezerra\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.5\\microsoft.aspnetcore.cryptography.keyderivation.3.1.5.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+pvwnUhy1DSqBoOWLfTZrjqzNhI6Y1OxkW9zLskwNAHdlSw/IJWIceUeCmMeP845AxnQluEGusjnUv3OMisKAA==",
+  "dgSpecHash": "h3oR8CxnLRJO1VYtasNSNMTIxw2ypoPdv904Uq/ySUAFc6ruGVahBv7lNJ5QJypX0iaZ+63vv4/ZCrsiwoOJUg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jbezerra\\Documents\\APS\\projects\\ProjectWithEntity\\UUM\\src\\UUM.Core\\UUM.Core.csproj",
+  "projectFilePath": "C:\\Users\\jbezerra\\Documents\\APS\\uumcode\\UUM\\src\\UUM.Core\\UUM.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

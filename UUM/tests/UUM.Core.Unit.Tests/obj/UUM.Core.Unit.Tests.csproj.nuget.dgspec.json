@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jbezerra\\Documents\\APS\\projects\\ProjectWithEntity\\UUM\\tests\\UUM.Core.Unit.Tests\\UUM.Core.Unit.Tests.csproj": {}
+    "C:\\Users\\jbezerra\\Documents\\APS\\uumcode\\UUM\\tests\\UUM.Core.Unit.Tests\\UUM.Core.Unit.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jbezerra\\Documents\\APS\\projects\\ProjectWithEntity\\UUM\\tests\\UUM.Core.Unit.Tests\\UUM.Core.Unit.Tests.csproj": {
+    "C:\\Users\\jbezerra\\Documents\\APS\\uumcode\\UUM\\tests\\UUM.Core.Unit.Tests\\UUM.Core.Unit.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jbezerra\\Documents\\APS\\projects\\ProjectWithEntity\\UUM\\tests\\UUM.Core.Unit.Tests\\UUM.Core.Unit.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\jbezerra\\Documents\\APS\\uumcode\\UUM\\tests\\UUM.Core.Unit.Tests\\UUM.Core.Unit.Tests.csproj",
         "projectName": "UUM.Core.Unit.Tests",
-        "projectPath": "C:\\Users\\jbezerra\\Documents\\APS\\projects\\ProjectWithEntity\\UUM\\tests\\UUM.Core.Unit.Tests\\UUM.Core.Unit.Tests.csproj",
+        "projectPath": "C:\\Users\\jbezerra\\Documents\\APS\\uumcode\\UUM\\tests\\UUM.Core.Unit.Tests\\UUM.Core.Unit.Tests.csproj",
         "packagesPath": "C:\\Users\\jbezerra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jbezerra\\Documents\\APS\\projects\\ProjectWithEntity\\UUM\\tests\\UUM.Core.Unit.Tests\\obj\\",
+        "outputPath": "C:\\Users\\jbezerra\\Documents\\APS\\uumcode\\UUM\\tests\\UUM.Core.Unit.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -9059,11 +9059,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jbezerra\\Documents\\APS\\projects\\ProjectWithEntity\\UUM\\src\\UUM.WebAPI\\UUM.ApiWeb.csproj",
+      "projectUniqueName": "C:\\Users\\jbezerra\\Documents\\APS\\uumcode\\UUM\\src\\UUM.WebAPI\\UUM.ApiWeb.csproj",
       "projectName": "UUM.ApiWeb",
-      "projectPath": "C:\\Users\\jbezerra\\Documents\\APS\\projects\\ProjectWithEntity\\UUM\\src\\UUM.WebAPI\\UUM.ApiWeb.csproj",
+      "projectPath": "C:\\Users\\jbezerra\\Documents\\APS\\uumcode\\UUM\\src\\UUM.WebAPI\\UUM.ApiWeb.csproj",
       "packagesPath": "C:\\Users\\jbezerra\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jbezerra\\Documents\\APS\\projects\\ProjectWithEntity\\UUM\\src\\UUM.WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\jbezerra\\Documents\\APS\\uumcode\\UUM\\src\\UUM.WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z5Z3c52jpNxvgfZwOKFizVpCey8U885uhsh1EKDohYjwfmNfEjv35ZkM/gc4balif9BQgrm0mgKfvCvFAcZWvg==",
+  "dgSpecHash": "CN+DNc//qxcf9c/xRyriG/VeLu1sk4JRyzrQnJDnqoK5BMKXJBTpfECSbov4NsRmgZ9x09edk8MxSQKIG1bzow==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jbezerra\\Documents\\APS\\projects\\ProjectWithEntity\\UUM\\tests\\UUM.Core.Unit.Tests\\UUM.Core.Unit.Tests.csproj",
+  "projectFilePath": "C:\\Users\\jbezerra\\Documents\\APS\\uumcode\\UUM\\tests\\UUM.Core.Unit.Tests\\UUM.Core.Unit.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jbezerra\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\jbezerra\\.nuget\\packages\\fluentassertions\\5.10.3\\fluentassertions.5.10.3.nupkg.sha512",

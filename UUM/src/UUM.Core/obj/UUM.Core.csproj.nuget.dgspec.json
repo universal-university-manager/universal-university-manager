@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jbezerra\\Documents\\APS\\projects\\ProjectWithEntity\\UUM\\src\\UUM.Core\\UUM.Core.csproj": {}
+    "C:\\Users\\jbezerra\\Documents\\APS\\uumcode\\UUM\\src\\UUM.Core\\UUM.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jbezerra\\Documents\\APS\\projects\\ProjectWithEntity\\UUM\\src\\UUM.Core\\UUM.Core.csproj": {
+    "C:\\Users\\jbezerra\\Documents\\APS\\uumcode\\UUM\\src\\UUM.Core\\UUM.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jbezerra\\Documents\\APS\\projects\\ProjectWithEntity\\UUM\\src\\UUM.Core\\UUM.Core.csproj",
+        "projectUniqueName": "C:\\Users\\jbezerra\\Documents\\APS\\uumcode\\UUM\\src\\UUM.Core\\UUM.Core.csproj",
         "projectName": "UUM.Core",
-        "projectPath": "C:\\Users\\jbezerra\\Documents\\APS\\projects\\ProjectWithEntity\\UUM\\src\\UUM.Core\\UUM.Core.csproj",
+        "projectPath": "C:\\Users\\jbezerra\\Documents\\APS\\uumcode\\UUM\\src\\UUM.Core\\UUM.Core.csproj",
         "packagesPath": "C:\\Users\\jbezerra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jbezerra\\Documents\\APS\\projects\\ProjectWithEntity\\UUM\\src\\UUM.Core\\obj\\",
+        "outputPath": "C:\\Users\\jbezerra\\Documents\\APS\\uumcode\\UUM\\src\\UUM.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

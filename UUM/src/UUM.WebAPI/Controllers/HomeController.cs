@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using UUM.WebAPI.Models;
 
-namespace UUM.WebAPI.Controllers
+namespace UUM.ApiWeb.Controllers
 {
     public class HomeController : Controller
     {

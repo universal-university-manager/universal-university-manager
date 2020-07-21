@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
-using UUM.WebAPI.Models;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace UUM.WebAPI.Data
 {
@@ -14,6 +9,6 @@ namespace UUM.WebAPI.Data
         {
         }
 
-        public DbSet<UUM.WebAPI.Models.Register> Register { get; set; }
+        public DbSet<Models.Register> Register { get; set; }
     }
 }
