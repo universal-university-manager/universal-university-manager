@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.30104.148
+VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6B203EAE-7455-4049-817D-BD68B496F83C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Umm.Web", "Umm.Web\Umm.Web.csproj", "{64851130-6831-4C86-90C7-79318C5C9128}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4FBAAC82-8A8C-4A77-8807-2255432F38A2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{407BC90A-348A-47F9-AAB9-CCF57B320945}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UUM.API.Unit.Tests", "UUM.API.Unit.Tests\UUM.API.Unit.Tests.csproj", "{2C18197B-870E-45F1-B65B-672ECE916993}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{096A4F6A-39FE-4B9C-9718-53D54A056702}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UUM.API", "UUM.API\UUM.API.csproj", "{C12A4089-EEF5-44C4-8559-F4A6A7B67E95}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uum.Core", "Uum.Core\Uum.Core.csproj", "{662971DE-C64F-474C-881F-45EDC46796EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,23 +17,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2C18197B-870E-45F1-B65B-672ECE916993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2C18197B-870E-45F1-B65B-672ECE916993}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2C18197B-870E-45F1-B65B-672ECE916993}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2C18197B-870E-45F1-B65B-672ECE916993}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C12A4089-EEF5-44C4-8559-F4A6A7B67E95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C12A4089-EEF5-44C4-8559-F4A6A7B67E95}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C12A4089-EEF5-44C4-8559-F4A6A7B67E95}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C12A4089-EEF5-44C4-8559-F4A6A7B67E95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64851130-6831-4C86-90C7-79318C5C9128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64851130-6831-4C86-90C7-79318C5C9128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64851130-6831-4C86-90C7-79318C5C9128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64851130-6831-4C86-90C7-79318C5C9128}.Release|Any CPU.Build.0 = Release|Any CPU
+		{662971DE-C64F-474C-881F-45EDC46796EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{662971DE-C64F-474C-881F-45EDC46796EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{662971DE-C64F-474C-881F-45EDC46796EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{662971DE-C64F-474C-881F-45EDC46796EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{2C18197B-870E-45F1-B65B-672ECE916993} = {4FBAAC82-8A8C-4A77-8807-2255432F38A2}
-		{C12A4089-EEF5-44C4-8559-F4A6A7B67E95} = {6B203EAE-7455-4049-817D-BD68B496F83C}
+		{64851130-6831-4C86-90C7-79318C5C9128} = {407BC90A-348A-47F9-AAB9-CCF57B320945}
+		{662971DE-C64F-474C-881F-45EDC46796EE} = {407BC90A-348A-47F9-AAB9-CCF57B320945}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {D6536E80-543F-4FD0-815C-37399D390B73}
+		SolutionGuid = {C5F1B4B1-E80B-4289-9979-19139D43C099}
 	EndGlobalSection
 EndGlobal
