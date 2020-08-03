@@ -8978,11 +8978,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jbezerra\\Documents\\APS\\uumcode\\UUM\\Umm.Web\\Uum.Web.csproj",
+      "projectUniqueName": "C:\\Users\\jbezerra\\Documents\\APS\\uumcode\\UUM\\Uum.Web\\Uum.Web.csproj",
       "projectName": "Uum.Web",
-      "projectPath": "C:\\Users\\jbezerra\\Documents\\APS\\uumcode\\UUM\\Umm.Web\\Uum.Web.csproj",
+      "projectPath": "C:\\Users\\jbezerra\\Documents\\APS\\uumcode\\UUM\\Uum.Web\\Uum.Web.csproj",
       "packagesPath": "C:\\Users\\jbezerra\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jbezerra\\Documents\\APS\\uumcode\\UUM\\Umm.Web\\obj\\",
+      "outputPath": "C:\\Users\\jbezerra\\Documents\\APS\\uumcode\\UUM\\Uum.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -15,3 +15,4 @@ C:\Users\jbezerra\Documents\APS\uumcode\UUM\Uum.Core\obj\Debug\netstandard2.0\Uu
 C:\Users\jbezerra\Documents\APS\uumcode\UUM\Uum.Core\obj\Debug\netstandard2.0\Uum.Core.csproj.CoreCompileInputs.cache
 C:\Users\jbezerra\Documents\APS\uumcode\UUM\Uum.Core\obj\Debug\netstandard2.0\Uum.Core.dll
 C:\Users\jbezerra\Documents\APS\uumcode\UUM\Uum.Core\obj\Debug\netstandard2.0\Uum.Core.pdb
+C:\Users\jbezerra\Documents\APS\uumcode\UUM\Uum.Core\obj\Debug\netstandard2.0\Uum.Core.csprojAssemblyReference.cache

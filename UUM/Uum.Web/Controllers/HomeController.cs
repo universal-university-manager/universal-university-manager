@@ -6,7 +6,7 @@ using Umm.Web.Models;
 namespace Umm.Web.Controllers
 {
     /// <summary>
-    /// Home page
+    /// Home page controller
     /// </summary>
     public class HomeController : Controller
     {
