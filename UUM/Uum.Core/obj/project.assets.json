@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jbezerra\\source\\repos\\UUM\\Uum.Core\\Uum.Core.csproj",
+      "projectUniqueName": "C:\\Users\\jbezerra\\Documents\\APS\\uumcode\\UUM\\Uum.Core\\Uum.Core.csproj",
       "projectName": "Uum.Core",
-      "projectPath": "C:\\Users\\jbezerra\\source\\repos\\UUM\\Uum.Core\\Uum.Core.csproj",
+      "projectPath": "C:\\Users\\jbezerra\\Documents\\APS\\uumcode\\UUM\\Uum.Core\\Uum.Core.csproj",
       "packagesPath": "C:\\Users\\jbezerra\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jbezerra\\source\\repos\\UUM\\Uum.Core\\obj\\",
+      "outputPath": "C:\\Users\\jbezerra\\Documents\\APS\\uumcode\\UUM\\Uum.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

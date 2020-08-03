@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Umm.Web", "Umm.Web\Umm.Web.csproj", "{64851130-6831-4C86-90C7-79318C5C9128}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uum.Web", "Umm.Web\Uum.Web.csproj", "{64851130-6831-4C86-90C7-79318C5C9128}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{407BC90A-348A-47F9-AAB9-CCF57B320945}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{096A4F6A-39FE-4B9C-9718-53D54A056702}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uum.Core", "Uum.Core\Uum.Core.csproj", "{662971DE-C64F-474C-881F-45EDC46796EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uum.Core", "Uum.Core\Uum.Core.csproj", "{662971DE-C64F-474C-881F-45EDC46796EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

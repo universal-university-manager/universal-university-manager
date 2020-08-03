@@ -7,3 +7,11 @@ C:\Users\jbezerra\source\repos\UUM\Uum.Core\obj\Debug\netstandard2.0\Uum.Core.As
 C:\Users\jbezerra\source\repos\UUM\Uum.Core\obj\Debug\netstandard2.0\Uum.Core.csproj.CoreCompileInputs.cache
 C:\Users\jbezerra\source\repos\UUM\Uum.Core\obj\Debug\netstandard2.0\Uum.Core.dll
 C:\Users\jbezerra\source\repos\UUM\Uum.Core\obj\Debug\netstandard2.0\Uum.Core.pdb
+C:\Users\jbezerra\Documents\APS\uumcode\UUM\Uum.Core\bin\Debug\netstandard2.0\Uum.Core.deps.json
+C:\Users\jbezerra\Documents\APS\uumcode\UUM\Uum.Core\bin\Debug\netstandard2.0\Uum.Core.dll
+C:\Users\jbezerra\Documents\APS\uumcode\UUM\Uum.Core\bin\Debug\netstandard2.0\Uum.Core.pdb
+C:\Users\jbezerra\Documents\APS\uumcode\UUM\Uum.Core\obj\Debug\netstandard2.0\Uum.Core.AssemblyInfoInputs.cache
+C:\Users\jbezerra\Documents\APS\uumcode\UUM\Uum.Core\obj\Debug\netstandard2.0\Uum.Core.AssemblyInfo.cs
+C:\Users\jbezerra\Documents\APS\uumcode\UUM\Uum.Core\obj\Debug\netstandard2.0\Uum.Core.csproj.CoreCompileInputs.cache
+C:\Users\jbezerra\Documents\APS\uumcode\UUM\Uum.Core\obj\Debug\netstandard2.0\Uum.Core.dll
+C:\Users\jbezerra\Documents\APS\uumcode\UUM\Uum.Core\obj\Debug\netstandard2.0\Uum.Core.pdb
