@@ -3,6 +3,9 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Uum.Web.Models
 {
+    /// <summary>
+    /// Address properties
+    /// </summary>
     [Table("Address")]
     public class AddressModel
     {

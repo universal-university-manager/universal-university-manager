@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace Uum.Web.Models
 {
     /// <summary>
-    /// Users Properties
+    /// Logins Properties
     /// </summary>
     [Table("Login")]
     public class LoginModel
@@ -18,8 +18,8 @@ namespace Uum.Web.Models
         /// <summary>
         /// Age properties
         /// </summary>
-        [Display(Name = "User")]
-        public string User { get; set; }
+        [Display(Name = "Login")]
+        public string Login { get; set; }
 
         /// <summary>
         /// Age properties

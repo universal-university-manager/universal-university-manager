@@ -1,11 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Uum.Web.Models
 {
     /// <summary>
     /// Users properties
     /// </summary>
+    [Table("Users")]
     public class UserModel
     {
         /// <summary>
@@ -59,7 +61,7 @@ namespace Uum.Web.Models
         /// <summary>
         /// User properties
         /// </summary>
-        [Display(Name = "User")]
+        [Display(Name = "Logins")]
         public List<LoginModel> Logins { get; set; }
 
         /// <summary>
