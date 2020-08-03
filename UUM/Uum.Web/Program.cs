@@ -3,6 +3,9 @@ using Microsoft.Extensions.Hosting;
 
 namespace Uum.Web
 {
+    /// <summary>
+    /// Program
+    /// </summary>
     public class Program
     {
         /// <summary>
