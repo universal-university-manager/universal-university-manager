@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Umm.Web.Models
+namespace Uum.Web.Models
 {
     /// <summary>
     /// Users Properties

@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace Umm.Web.Models
+namespace Uum.Web.Models
 {
     /// <summary>
     /// Context properties and connection with the database

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace Umm.Web.Models
+namespace Uum.Web.Models
 {
     /// <summary>
     /// Users properties

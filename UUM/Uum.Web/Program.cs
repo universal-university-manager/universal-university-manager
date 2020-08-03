@@ -1,26 +1,23 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 
-namespace Umm.Web
+namespace Uum.Web
 {
     public class Program
     {
-        public static void Main(string[] args)
-        {
-            CreateHostBuilder(args).Build().Run();
-        }
+        /// <summary>
+        /// Main method
+        /// </summary>
+        /// <param name="args">args instance</param>
+        public static void Main(string[] args) => CreateHostBuilder(args).Build().Run();
 
+        /// <summary>
+        /// Configure the HTTP request pipeline.
+        /// </summary>
+        /// <param name="args">args instance</param>
+        /// <returns></returns>
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
-                {
-                    webBuilder.UseStartup<Startup>();
-                });
+                .ConfigureWebHostDefaults(webBuilder => webBuilder.UseStartup<Startup>());
     }
 }

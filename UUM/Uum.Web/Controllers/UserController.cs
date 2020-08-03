@@ -2,9 +2,9 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Umm.Web.Models;
+using Uum.Web.Models;
 
-namespace Umm.Web.Controllers
+namespace Uum.Web.Controllers
 {
     /// <summary>
     /// Register and modify users

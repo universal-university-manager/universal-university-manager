@@ -1,9 +1,9 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Umm.Web.Models;
+using Uum.Web.Models;
 
-namespace Umm.Web.Controllers
+namespace Uum.Web.Controllers
 {
     /// <summary>
     /// Home page controller

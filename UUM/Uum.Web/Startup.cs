@@ -3,30 +3,45 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Umm.Web.Models;
+using Uum.Web.Models;
 
-namespace Umm.Web
+namespace Uum.Web
 {
+    /// <summary>
+    /// the HTTP request pipeline.
+    /// </summary>
     public class Startup
     {
+        /// <summary>
+        /// Configuration method
+        /// </summary>
+        /// <param name="configuration">Configuration instance</param>
         public Startup(IConfiguration configuration) => Configuration = configuration;
 
+        /// <summary>
+        /// Configuration properties
+        /// </summary>
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
+        /// <summary>
+        /// This method gets called by the runtime. Use this method to add services to the container.
+        /// </summary>
+        /// <param name="services">Services instance</param>
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
             services.AddDbContext<Context>();
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        /// <summary>
+        /// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        /// </summary>
+        /// <param name="app">app instance</param>
+        /// <param name="env">env instance</param>
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
-            {
                 app.UseDeveloperExceptionPage();
-            }
             else
             {
                 app.UseExceptionHandler("/Home/Error");
@@ -39,12 +54,9 @@ namespace Umm.Web
 
             app.UseAuthorization();
 
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
-            });
+            app.UseEndpoints(endpoints => endpoints.MapControllerRoute(
+                name: "default",
+                pattern: "{controller=Home}/{action=Index}/{id?}"));
         }
     }
 }
