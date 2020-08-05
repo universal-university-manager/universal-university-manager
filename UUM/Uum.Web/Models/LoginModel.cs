@@ -6,7 +6,7 @@ namespace Uum.Web.Models
     /// <summary>
     /// Logins Properties
     /// </summary>
-    [Table("Login")]
+    [Table("Logins")]
     public class LoginModel
     {
         /// <summary>

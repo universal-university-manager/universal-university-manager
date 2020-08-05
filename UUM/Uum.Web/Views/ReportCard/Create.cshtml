@@ -1,0 +1,68 @@
+﻿@model Uum.Web.Models.ReportCardModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>ReportCardModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="AverageGrade" class="control-label"></label>
+                <input asp-for="AverageGrade" class="form-control" />
+                <span asp-validation-for="AverageGrade" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="P1" class="control-label"></label>
+                <input asp-for="P1" class="form-control" />
+                <span asp-validation-for="P1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="P2" class="control-label"></label>
+                <input asp-for="P2" class="form-control" />
+                <span asp-validation-for="P2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Sub" class="control-label"></label>
+                <input asp-for="Sub" class="form-control" />
+                <span asp-validation-for="Sub" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Exa" class="control-label"></label>
+                <input asp-for="Exa" class="form-control" />
+                <span asp-validation-for="Exa" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Presence" class="control-label"></label>
+                <input asp-for="Presence" class="form-control" />
+                <span asp-validation-for="Presence" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Fouls" class="control-label"></label>
+                <input asp-for="Fouls" class="form-control" />
+                <span asp-validation-for="Fouls" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Frequency" class="control-label"></label>
+                <input asp-for="Frequency" class="form-control" />
+                <span asp-validation-for="Frequency" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

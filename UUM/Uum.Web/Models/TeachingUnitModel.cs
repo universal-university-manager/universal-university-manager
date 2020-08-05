@@ -6,7 +6,7 @@ namespace Uum.Web.Models
     /// <summary>
     /// Teaching Unit properties
     /// </summary>
-    [Table("TeachingUnit")]
+    [Table("TeachingUnits")]
     public class TeachingUnitModel
     {
         /// <summary>

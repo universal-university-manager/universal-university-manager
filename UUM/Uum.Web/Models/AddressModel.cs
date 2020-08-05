@@ -6,7 +6,7 @@ namespace Uum.Web.Models
     /// <summary>
     /// Address properties
     /// </summary>
-    [Table("Address")]
+    [Table("Addresses")]
     public class AddressModel
     {
         /// <summary>

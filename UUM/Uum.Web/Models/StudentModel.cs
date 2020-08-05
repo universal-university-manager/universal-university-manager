@@ -6,7 +6,7 @@ namespace Uum.Web.Models
     /// <summary>
     /// Student properties
     /// </summary>
-    [Table("Address")]
+    [Table("Students")]
     public class StudentModel
     {
         /// <summary>

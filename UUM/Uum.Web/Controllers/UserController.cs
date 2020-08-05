@@ -134,10 +134,10 @@ namespace Uum.Web.Controllers
         }
 
         /// <summary>
-        /// Validate that the user exists
+        /// Check if address exists
         /// </summary>
         /// <param name="id">Id instance</param>
-        /// <returns>validation status</returns>
+        /// <returns>Check response</returns>
         private bool UserModelExists(int id) => _context.Users.Any(e => e.Id == id);
     }
 }
