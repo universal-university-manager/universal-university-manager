@@ -562,6 +562,9 @@ C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\Uum.Web\obj\Debug\netcoreapp3.1
 C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\Uum.Web\obj\Debug\netcoreapp3.1\UUM.WEB.RazorCoreGenerate.cache
 C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\Uum.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\Uum.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\Uum.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\Uum.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\Uum.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\Uum.Web\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\Uum.Web\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\Uum.Web\obj\Debug\netcoreapp3.1\UUM.WEB.RazorTargetAssemblyInfo.cache
@@ -573,6 +576,9 @@ C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\Uum.Web\obj\Debug\netcoreapp3.1
 C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\Uum.Web\obj\Debug\netcoreapp3.1\UUM.WEB.dll
 C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\Uum.Web\obj\Debug\netcoreapp3.1\UUM.WEB.pdb
 C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\Uum.Web\obj\Debug\netcoreapp3.1\UUM.WEB.genruntimeconfig.cache
-C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\Uum.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
-C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\Uum.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
-C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\Uum.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\Uum.Web\obj\Debug\netcoreapp3.1\Razor\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\Uum.Web\obj\Debug\netcoreapp3.1\Razor\Views\Address\Create.cshtml.g.cs
+C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\Uum.Web\obj\Debug\netcoreapp3.1\Razor\Views\Address\Delete.cshtml.g.cs
+C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\Uum.Web\obj\Debug\netcoreapp3.1\Razor\Views\Address\Details.cshtml.g.cs
+C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\Uum.Web\obj\Debug\netcoreapp3.1\Razor\Views\Address\Edit.cshtml.g.cs
+C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\Uum.Web\obj\Debug\netcoreapp3.1\Razor\Views\Address\Index.cshtml.g.cs

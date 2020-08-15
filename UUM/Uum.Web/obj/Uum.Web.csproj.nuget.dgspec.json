@@ -30,7 +30,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\jbezerra\\Documents\\JHON\\APS\\uumcode\\UUM\\UUM.Model\\UUM.Model.csproj": {
+                "projectPath": "C:\\Users\\jbezerra\\Documents\\JHON\\APS\\uumcode\\UUM\\UUM.Model\\UUM.Model.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -42,6 +46,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.0-preview.7.20365.19, )"
@@ -57,6 +65,10 @@
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0-preview.7.20365.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.0-preview.7.20365.15, )"
             }
@@ -106,11 +118,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {
-              "C:\\Users\\jbezerra\\Documents\\JHON\\APS\\uumcode\\UUM\\UUM.Infrastructure\\UUM.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\jbezerra\\Documents\\JHON\\APS\\uumcode\\UUM\\UUM.Infrastructure\\UUM.Infrastructure.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {

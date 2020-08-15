@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using UUM.Model.ViewModels;
 
-namespace UUM.Model.Context
+namespace UUM.Infrastructure.Context
 {
     /// <summary>
     /// Context properties and connection with the database
@@ -16,26 +16,25 @@ namespace UUM.Model.Context
         /// <summary>
         /// Properties of the tables that will be generated or used in the database
         /// </summary>
-        public System.Data.Entity.DbSet<UserModel> Users { get; set; }
-        public object Addresses { get; set; }
+        public DbSet<UserModel> Users { get; set; }
 
-        //public System.Data.Entity.DbSet<AddressModel> Addresses { get; set; }
+        public DbSet<AddressModel> Addresses { get; set; }
 
-        //public System.Data.Entity.DbSet<CourseModel> Courses { get; set; }
+        public DbSet<CourseModel> Courses { get; set; }
 
-        //public System.Data.Entity.DbSet<LoginModel> Logins { get; set; }
+        public DbSet<LoginModel> Logins { get; set; }
 
-        //public System.Data.Entity.DbSet<ReportCardModel> Newsletters { get; set; }
+        public DbSet<ReportCardModel> Newsletters { get; set; }
 
-        //public System.Data.Entity.DbSet<StudentModel> Students { get; set; }
+        public DbSet<StudentModel> Students { get; set; }
 
-        //public System.Data.Entity.DbSet<TeachingUnitModel> TeachingUnits { get; set; }
+        public DbSet<TeachingUnitModel> TeachingUnits { get; set; }
 
         /// <summary>
         /// Properties of how the database should be loaded
         /// </summary>
         /// <param name="optionsBuilder">options Builder instance</param>
-        protected void OnConfiguring(DbContextOptionsBuilder optionsBuilder) =>
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) =>
             optionsBuilder.UseSqlServer(Server);
     }
 }

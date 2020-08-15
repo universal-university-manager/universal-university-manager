@@ -1,13 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "tvf7rRhHoAIJ5VYiK1foca8jl7Ag6rD5t0gqhz+J728f6pqp36/wF0Uy24t4Fl78axFgV9q1LhcuzkdfmO61Gg==",
+  "dgSpecHash": "9wyDALzoxEoyS8JPTERx6oL2LEDg3n6D9HU+pFFUqiLCV5YsA3j57/6pGKqjFIYgxT9B1l9XenL86vsXNm1asQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\jbezerra\\Documents\\JHON\\APS\\uumcode\\UUM\\UUM.Model\\UUM.Model.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jbezerra\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
-    "C:\\Users\\jbezerra\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.0-preview.7.20365.19\\microsoft.aspnetcore.cryptography.internal.5.0.0-preview.7.20365.19.nupkg.sha512",
-    "C:\\Users\\jbezerra\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.0-preview.7.20365.19\\microsoft.aspnetcore.cryptography.keyderivation.5.0.0-preview.7.20365.19.nupkg.sha512",
-    "C:\\Users\\jbezerra\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\5.0.0-preview.7.20365.19\\microsoft.aspnetcore.identity.entityframeworkcore.5.0.0-preview.7.20365.19.nupkg.sha512",
     "C:\\Users\\jbezerra\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\jbezerra\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.0\\microsoft.data.sqlclient.2.0.0.nupkg.sha512",
     "C:\\Users\\jbezerra\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.0\\microsoft.data.sqlclient.sni.runtime.2.0.0.nupkg.sha512",
@@ -21,8 +18,6 @@
     "C:\\Users\\jbezerra\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0-preview.7.20364.11\\microsoft.extensions.configuration.abstractions.5.0.0-preview.7.20364.11.nupkg.sha512",
     "C:\\Users\\jbezerra\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0-preview.7.20364.11\\microsoft.extensions.dependencyinjection.5.0.0-preview.7.20364.11.nupkg.sha512",
     "C:\\Users\\jbezerra\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0-preview.7.20364.11\\microsoft.extensions.dependencyinjection.abstractions.5.0.0-preview.7.20364.11.nupkg.sha512",
-    "C:\\Users\\jbezerra\\.nuget\\packages\\microsoft.extensions.identity.core\\5.0.0-preview.7.20365.19\\microsoft.extensions.identity.core.5.0.0-preview.7.20365.19.nupkg.sha512",
-    "C:\\Users\\jbezerra\\.nuget\\packages\\microsoft.extensions.identity.stores\\5.0.0-preview.7.20365.19\\microsoft.extensions.identity.stores.5.0.0-preview.7.20365.19.nupkg.sha512",
     "C:\\Users\\jbezerra\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0-preview.7.20364.11\\microsoft.extensions.logging.5.0.0-preview.7.20364.11.nupkg.sha512",
     "C:\\Users\\jbezerra\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0-preview.7.20364.11\\microsoft.extensions.logging.abstractions.5.0.0-preview.7.20364.11.nupkg.sha512",
     "C:\\Users\\jbezerra\\.nuget\\packages\\microsoft.extensions.options\\5.0.0-preview.7.20364.11\\microsoft.extensions.options.5.0.0-preview.7.20364.11.nupkg.sha512",

@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using UUM.Model.ViewModels;
 
-namespace Uum.Web.Controllers
+namespace UUM.WEB.WebViewControllers
 {
     /// <summary>
     /// Home page controller

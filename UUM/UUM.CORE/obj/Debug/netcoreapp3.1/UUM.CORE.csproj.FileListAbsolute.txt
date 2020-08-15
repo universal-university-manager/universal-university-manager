@@ -1,8 +1,12 @@
 C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\UUM.CORE\bin\Debug\netcoreapp3.1\UUM.CORE.deps.json
+C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\UUM.CORE\bin\Debug\netcoreapp3.1\UUM.CORE.runtimeconfig.json
+C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\UUM.CORE\bin\Debug\netcoreapp3.1\UUM.CORE.runtimeconfig.dev.json
 C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\UUM.CORE\bin\Debug\netcoreapp3.1\UUM.CORE.dll
 C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\UUM.CORE\bin\Debug\netcoreapp3.1\UUM.CORE.pdb
 C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\UUM.CORE\bin\Debug\netcoreapp3.1\UUM.Infrastructure.dll
+C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\UUM.CORE\bin\Debug\netcoreapp3.1\UUM.Model.dll
 C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\UUM.CORE\bin\Debug\netcoreapp3.1\UUM.Infrastructure.pdb
+C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\UUM.CORE\bin\Debug\netcoreapp3.1\UUM.Model.pdb
 C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\UUM.CORE\obj\Debug\netcoreapp3.1\UUM.CORE.csprojAssemblyReference.cache
 C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\UUM.CORE\obj\Debug\netcoreapp3.1\UUM.CORE.AssemblyInfoInputs.cache
 C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\UUM.CORE\obj\Debug\netcoreapp3.1\UUM.CORE.AssemblyInfo.cs
@@ -10,3 +14,4 @@ C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\UUM.CORE\obj\Debug\netcoreapp3.
 C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\UUM.CORE\obj\Debug\netcoreapp3.1\UUM.CORE.csproj.CopyComplete
 C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\UUM.CORE\obj\Debug\netcoreapp3.1\UUM.CORE.dll
 C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\UUM.CORE\obj\Debug\netcoreapp3.1\UUM.CORE.pdb
+C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\UUM.CORE\obj\Debug\netcoreapp3.1\UUM.CORE.genruntimeconfig.cache
