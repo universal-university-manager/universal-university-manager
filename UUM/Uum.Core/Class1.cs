@@ -1,7 +1,6 @@
-﻿using System.Linq;
-
-namespace Uum.Core
+﻿namespace UUM.CORE
 {
+
     public class Class1
     {
     }

@@ -19,7 +19,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Uum.Core\Uum.Core.csproj" />
+    <ProjectReference Include="..\UUM.Infrastructure\UUM.Infrastructure.csproj" />
+    <ProjectReference Include="..\UUM.Model\UUM.Model.csproj" />
   </ItemGroup>
 
 </Project>

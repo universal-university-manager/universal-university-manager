@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Uum.Web.Models;
+using UUM.Model.ViewModels;
 
 namespace Uum.Web.Controllers
 {
