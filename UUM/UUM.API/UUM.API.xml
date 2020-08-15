@@ -4,27 +4,251 @@
         <name>UUM.API</name>
     </assembly>
     <members>
-        <member name="T:UUM.API.Program">
+        <member name="T:UUM.API.Controllers.AddressController">
+            <summary>
+            Address Controller
+            </summary>
+        </member>
+        <member name="M:UUM.API.Controllers.AddressController.#ctor(UUM.Infrastructure.Context.Context)">
             <summary>
             
+            </summary>
+            <param name="context">context instance</param>
+        </member>
+        <member name="M:UUM.API.Controllers.AddressController.GetAddresses">
+            <summary>
+            GET Method
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UUM.API.Controllers.AddressController.GetAddressModel(System.Int32)">
+            <summary>
+            GET Method
+            </summary>
+            <param name="id">id instance</param>
+            <returns></returns>
+        </member>
+        <member name="M:UUM.API.Controllers.AddressController.PutAddressModel(System.Int32,UUM.Model.ViewModels.AddressModel)">
+            <summary>
+            PUT Method
+            </summary>
+            <param name="id">id instance</param>
+            <param name="addressModel">addressModel instance</param>
+            <returns></returns>
+        </member>
+        <member name="M:UUM.API.Controllers.AddressController.PostAddressModel(UUM.Model.ViewModels.AddressModel)">
+            <summary>
+            POST Method
+            </summary>
+            <param name="addressModel">addressModel instance</param>
+            <returns></returns>
+        </member>
+        <member name="M:UUM.API.Controllers.AddressController.DeleteAddressModel(System.Int32)">
+            <summary>
+            DELETE Method
+            </summary>
+            <param name="id">id instance</param>
+            <returns></returns>
+        </member>
+        <member name="T:UUM.API.Controllers.CourseController">
+            <summary>
+            Course Controller
+            </summary>
+        </member>
+        <member name="M:UUM.API.Controllers.CourseController.#ctor(UUM.Infrastructure.Context.Context)">
+            <summary>
+            
+            </summary>
+            <param name="context">context instance</param>
+        </member>
+        <member name="M:UUM.API.Controllers.CourseController.GetCourses">
+            <summary>
+            GET Method
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UUM.API.Controllers.CourseController.GetCourseModel(System.Int32)">
+            <summary>
+            GET Method
+            </summary>
+            <param name="id">id instance</param>
+            <returns></returns>
+        </member>
+        <member name="M:UUM.API.Controllers.CourseController.PutCourseModel(System.Int32,UUM.Model.ViewModels.CourseModel)">
+            <summary>
+            PUT Method
+            </summary>
+            <param name="id">id instance</param>
+            <param name="courseModel">courseModel instance</param>
+            <returns></returns>
+        </member>
+        <member name="M:UUM.API.Controllers.CourseController.PostCourseModel(UUM.Model.ViewModels.CourseModel)">
+            <summary>
+            POST Method
+            </summary>
+            <param name="courseModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UUM.API.Controllers.CourseController.DeleteCourseModel(System.Int32)">
+            <summary>
+            DELETE Method
+            </summary>
+            <param name="id">id instance</param>
+            <returns></returns>
+        </member>
+        <member name="T:UUM.API.Controllers.ReportCardController">
+            <summary>
+            Report Card Controller
+            </summary>
+        </member>
+        <member name="M:UUM.API.Controllers.ReportCardController.#ctor(UUM.Infrastructure.Context.Context)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:UUM.API.Controllers.ReportCardController.PutReportCardModel(System.Int32,UUM.Model.ViewModels.ReportCardModel)">
+            <summary>
+            PUT Method
+            </summary>
+            <param name="id"></param>
+            <param name="reportCardModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UUM.API.Controllers.ReportCardController.PostReportCardModel(UUM.Model.ViewModels.ReportCardModel)">
+            <summary>
+            POST Method
+            </summary>
+            <param name="reportCardModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UUM.API.Controllers.ReportCardController.DeleteReportCardModel(System.Int32)">
+            <summary>
+            DELETE Method
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:UUM.API.Controllers.StudentController">
+            <summary>
+            Student Controller
+            </summary>
+        </member>
+        <member name="M:UUM.API.Controllers.StudentController.#ctor(UUM.Infrastructure.Context.Context)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:UUM.API.Controllers.StudentController.PutStudentModel(System.Int32,UUM.Model.ViewModels.StudentModel)">
+            <summary>
+            PUT Method
+            </summary>
+            <param name="id"></param>
+            <param name="studentModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UUM.API.Controllers.StudentController.PostStudentModel(UUM.Model.ViewModels.StudentModel)">
+            <summary>
+            POST Method
+            </summary>
+            <param name="studentModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UUM.API.Controllers.StudentController.DeleteStudentModel(System.Int32)">
+            <summary>
+            DELETE Method
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:UUM.API.Controllers.TeachingUnitController">
+            <summary>
+            Teaching Unit Controller
+            </summary>
+        </member>
+        <member name="M:UUM.API.Controllers.TeachingUnitController.#ctor(UUM.Infrastructure.Context.Context)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:UUM.API.Controllers.TeachingUnitController.PutTeachingUnitModel(System.Int32,UUM.Model.ViewModels.TeachingUnitModel)">
+            <summary>
+            PUT Method
+            </summary>
+            <param name="id"></param>
+            <param name="teachingUnitModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UUM.API.Controllers.TeachingUnitController.PostTeachingUnitModel(UUM.Model.ViewModels.TeachingUnitModel)">
+            <summary>
+            POST Method
+            </summary>
+            <param name="teachingUnitModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UUM.API.Controllers.TeachingUnitController.DeleteTeachingUnitModel(System.Int32)">
+            <summary>
+            DELETE Method
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:UUM.API.Controllers.UserController">
+            <summary>
+            User Controller
+            </summary>
+        </member>
+        <member name="M:UUM.API.Controllers.UserController.#ctor(UUM.Infrastructure.Context.Context)">
+            <summary>
+            
+            </summary>
+            <param name="context">Context instance</param>
+        </member>
+        <member name="M:UUM.API.Controllers.UserController.PutUserModel(System.Int32,UUM.Model.ViewModels.UserModel)">
+            <summary>
+            PUT Method
+            </summary>
+            <param name="id">id instance</param>
+            <param name="userModel">userModel instance</param>
+            <returns></returns>
+        </member>
+        <member name="M:UUM.API.Controllers.UserController.PostUserModel(UUM.Model.ViewModels.UserModel)">
+            <summary>
+            POST Method
+            </summary>
+            <param name="userModel">userModel Instance</param>
+            <returns></returns>
+        </member>
+        <member name="M:UUM.API.Controllers.UserController.DeleteUserModel(System.Int32)">
+            <summary>
+            DELETE Method
+            </summary>
+            <param name="id">Id instance</param>
+            <returns></returns>
+        </member>
+        <member name="T:UUM.API.Program">
+            <summary>
+            Program
             </summary>
         </member>
         <member name="M:UUM.API.Program.Main(System.String[])">
             <summary>
-            
+            Boot method
             </summary>
             <param name="args"></param>
         </member>
         <member name="M:UUM.API.Program.CreateHostBuilder(System.String[])">
             <summary>
-            
+            Initialize design method
             </summary>
-            <param name="args"></param>
+            <param name="args">args instance</param>
             <returns></returns>
         </member>
         <member name="T:UUM.API.Startup">
             <summary>
-            
+            Startup
             </summary>
         </member>
         <member name="M:UUM.API.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
@@ -35,21 +259,21 @@
         </member>
         <member name="P:UUM.API.Startup.Configuration">
             <summary>
-            
+            Configuration properties
             </summary>
         </member>
         <member name="M:UUM.API.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
             <summary>
             This method gets called by the runtime. Use this method to add services to the container.
             </summary>
-            <param name="services"></param>
+            <param name="services">services instance</param>
         </member>
         <member name="M:UUM.API.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
             <summary>
             This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
             </summary>
-            <param name="app"></param>
-            <param name="env"></param>
+            <param name="app">app instance</param>
+            <param name="env">env instance</param>
         </member>
     </members>
 </doc>

@@ -184,3 +184,5 @@ C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\UUM.API\obj\Debug\netcoreapp3.1
 C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\UUM.API\obj\Debug\netcoreapp3.1\UUM.API.dll
 C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\UUM.API\obj\Debug\netcoreapp3.1\UUM.API.pdb
 C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\UUM.API\obj\Debug\netcoreapp3.1\UUM.API.genruntimeconfig.cache
+C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\UUM.API\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.json
+C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\UUM.API\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.local.json

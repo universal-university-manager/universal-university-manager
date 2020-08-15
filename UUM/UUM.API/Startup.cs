@@ -9,7 +9,7 @@ using UUM.Infrastructure.Context;
 namespace UUM.API
 {
     /// <summary>
-    /// 
+    /// Startup
     /// </summary>
     public class Startup
     {
@@ -20,14 +20,14 @@ namespace UUM.API
         public Startup(IConfiguration configuration) => Configuration = configuration;
 
         /// <summary>
-        /// 
+        /// Configuration properties
         /// </summary>
         public IConfiguration Configuration { get; }
 
         /// <summary>
         /// This method gets called by the runtime. Use this method to add services to the container.
         /// </summary>
-        /// <param name="services"></param>
+        /// <param name="services">services instance</param>
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
@@ -39,8 +39,8 @@ namespace UUM.API
         /// <summary>
         /// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         /// </summary>
-        /// <param name="app"></param>
-        /// <param name="env"></param>
+        /// <param name="app">app instance</param>
+        /// <param name="env">env instance</param>
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment()) app.UseDeveloperExceptionPage();

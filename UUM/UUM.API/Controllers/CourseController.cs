@@ -20,7 +20,7 @@ namespace UUM.API.Controllers
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="context"></param>
+        /// <param name="context">context instance</param>
         public CourseController(Context context) => _context = context;
 
         /// <summary>
@@ -36,7 +36,7 @@ namespace UUM.API.Controllers
         /// <summary>
         /// GET Method
         /// </summary>
-        /// <param name="id"></param>
+        /// <param name="id">id instance</param>
         /// <returns></returns>
         [HttpGet("{id}")]
         public async Task<ActionResult<CourseModel>> GetCourseModel(int id)
@@ -52,8 +52,8 @@ namespace UUM.API.Controllers
         /// <summary>
         /// PUT Method
         /// </summary>
-        /// <param name="id"></param>
-        /// <param name="courseModel"></param>
+        /// <param name="id">id instance</param>
+        /// <param name="courseModel">courseModel instance</param>
         /// <returns></returns>
         [HttpPut("{id}")]
         public async Task<IActionResult> PutCourseModel(int id, CourseModel courseModel)
@@ -95,7 +95,7 @@ namespace UUM.API.Controllers
         /// <summary>
         /// DELETE Method
         /// </summary>
-        /// <param name="id"></param>
+        /// <param name="id">id instance</param>
         /// <returns></returns>
         [HttpDelete("{id}")]
         public async Task<ActionResult<CourseModel>> DeleteCourseModel(int id)

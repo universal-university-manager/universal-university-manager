@@ -11,24 +11,16 @@ namespace UUM.WEB.WebViewControllers
     {
         private readonly Context _context;
 
-        public AddressController(Context context)
-        {
-            _context = context;
-        }
+        public AddressController(Context context) => _context = context;
 
         // GET: Address
-        public async Task<IActionResult> Index()
-        {
-            return View(await _context.Addresses.ToListAsync());
-        }
+        public async Task<IActionResult> Index() => View(await _context.Addresses.ToListAsync());
 
         // GET: Address/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
-            {
                 return NotFound();
-            }
 
             var addressModel = await _context.Addresses
                 .FirstOrDefaultAsync(m => m.Id == id);
@@ -41,97 +33,91 @@ namespace UUM.WEB.WebViewControllers
         }
 
         // GET: Address/Create
-        public IActionResult Create()
-        {
-            return View();
-        }
+        public IActionResult Create() => View();
 
-        // POST: Address/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        /// <summary>
+        /// POST Method
+        /// </summary>
+        /// <param name="addressModel">addressModel instance</param>
+        /// <returns></returns>
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,State,City,Street,Number,ZipCode")] AddressModel addressModel)
         {
-            if (ModelState.IsValid)
-            {
-                _context.Add(addressModel);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            return View(addressModel);
+            if (!ModelState.IsValid) return View(addressModel);
+            _context.Add(addressModel);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
         }
 
-        // GET: Address/Edit/5
+        /// <summary>
+        /// GET Method
+        /// </summary>
+        /// <param name="id">id instance</param>
+        /// <returns></returns>
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
-            {
                 return NotFound();
-            }
 
             var addressModel = await _context.Addresses.FindAsync(id);
             if (addressModel == null)
-            {
                 return NotFound();
-            }
             return View(addressModel);
         }
 
-        // POST: Address/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        /// <summary>
+        /// POST Method
+        /// </summary>
+        /// <param name="id">id instance</param>
+        /// <param name="addressModel">addressModel instance</param>
+        /// <returns></returns>
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,State,City,Street,Number,ZipCode")] AddressModel addressModel)
         {
             if (id != addressModel.Id)
-            {
                 return NotFound();
-            }
 
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid) return View(addressModel);
+            try
             {
-                try
-                {
-                    _context.Update(addressModel);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!AddressModelExists(addressModel.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
+                _context.Update(addressModel);
+                await _context.SaveChangesAsync();
             }
-            return View(addressModel);
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!AddressModelExists(addressModel.Id))
+                    return NotFound();
+                else
+                    throw;
+            }
+            return RedirectToAction(nameof(Index));
         }
 
-        // GET: Address/Delete/5
+        /// <summary>
+        /// GET Method
+        /// </summary>
+        /// <param name="id">id instance</param>
+        /// <returns></returns>
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
-            {
                 return NotFound();
-            }
 
             var addressModel = await _context.Addresses
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (addressModel == null)
-            {
                 return NotFound();
-            }
 
             return View(addressModel);
         }
 
-        // POST: Address/Delete/5
+        /// <summary>
+        /// POST Method
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
@@ -142,9 +128,6 @@ namespace UUM.WEB.WebViewControllers
             return RedirectToAction(nameof(Index));
         }
 
-        private bool AddressModelExists(int id)
-        {
-            return _context.Addresses.Any(e => e.Id == id);
-        }
+        private bool AddressModelExists(int id) => _context.Addresses.Any(e => e.Id == id);
     }
 }

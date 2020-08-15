@@ -15,19 +15,19 @@ namespace UUM.WEB.WebViewControllers
         public HomeController(ILogger<HomeController> logger) => _logger = logger;
 
         /// <summary>
-        /// 
+        /// GET Method
         /// </summary>
         /// <returns></returns>
         public IActionResult Index() => View();
 
         /// <summary>
-        /// 
+        /// GET Method
         /// </summary>
         /// <returns></returns>
         public IActionResult Privacy() => View();
 
         /// <summary>
-        /// 
+        /// GET Method
         /// </summary>
         /// <returns></returns>
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

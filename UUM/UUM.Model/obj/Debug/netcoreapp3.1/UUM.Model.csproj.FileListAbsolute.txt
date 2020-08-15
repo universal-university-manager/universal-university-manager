@@ -9,4 +9,3 @@ C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\UUM.Model\obj\Debug\netcoreapp3
 C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\UUM.Model\obj\Debug\netcoreapp3.1\UUM.Model.dll
 C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\UUM.Model\obj\Debug\netcoreapp3.1\UUM.Model.pdb
 C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\UUM.Model\obj\Debug\netcoreapp3.1\UUM.Model.genruntimeconfig.cache
-C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\UUM.Model\obj\Debug\netcoreapp3.1\UUM.Model.csprojAssemblyReference.cache

@@ -20,7 +20,7 @@ namespace UUM.API.Controllers
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="context"></param>
+        /// <param name="context">Context instance</param>
         public UserController(Context context) => _context = context;
 
         // GET: api/UserModels
@@ -42,8 +42,8 @@ namespace UUM.API.Controllers
         /// <summary>
         /// PUT Method
         /// </summary>
-        /// <param name="id"></param>
-        /// <param name="userModel"></param>
+        /// <param name="id">id instance</param>
+        /// <param name="userModel">userModel instance</param>
         /// <returns></returns>
         [HttpPut("{id}")]
         public async Task<IActionResult> PutUserModel(int id, UserModel userModel)
@@ -71,7 +71,7 @@ namespace UUM.API.Controllers
         /// <summary>
         /// POST Method
         /// </summary>
-        /// <param name="userModel"></param>
+        /// <param name="userModel">userModel Instance</param>
         /// <returns></returns>
         [HttpPost]
         public async Task<ActionResult<UserModel>> PostUserModel(UserModel userModel)
@@ -85,7 +85,7 @@ namespace UUM.API.Controllers
         /// <summary>
         /// DELETE Method
         /// </summary>
-        /// <param name="id"></param>
+        /// <param name="id">Id instance</param>
         /// <returns></returns>
         [HttpDelete("{id}")]
         public async Task<ActionResult<UserModel>> DeleteUserModel(int id)
