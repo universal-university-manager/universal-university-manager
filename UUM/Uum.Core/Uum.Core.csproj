@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\UUM.Infrastructure\UUM.Infrastructure.csproj" />
+    <ProjectReference Include="..\UUM.Model\UUM.Model.csproj" />
   </ItemGroup>
 
 </Project>

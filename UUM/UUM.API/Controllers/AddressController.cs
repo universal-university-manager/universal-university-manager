@@ -26,7 +26,7 @@ namespace UUM.API.Controllers
         /// <summary>
         /// GET Method
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Address information</returns>
         [HttpGet]
         public async Task<ActionResult<IEnumerable<AddressModel>>> GetAddresses() => await _context.Addresses.ToListAsync();
 
