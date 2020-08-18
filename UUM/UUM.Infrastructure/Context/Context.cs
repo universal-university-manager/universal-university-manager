@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using UUM.Model.ViewModels;
+using UUM.CORE.ViewModels;
 
 namespace UUM.Infrastructure.Context
 {

@@ -14,7 +14,7 @@
           "Microsoft.EntityFrameworkCore.Analyzers": "5.0.0-preview.7.20365.15",
           "Microsoft.EntityFrameworkCore.Design": "5.0.0-preview.7.20365.15",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0-preview.7.20365.15",
-          "UUM.Model": "1.0.0"
+          "UUM.CORE": "1.0.0"
         },
         "runtime": {
           "UUM.Infrastructure.dll": {}
@@ -1238,14 +1238,12 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
-      "UUM.Model/1.0.0": {
+      "UUM.CORE/1.0.0": {
         "dependencies": {
-          "EntityFramework": "6.4.4",
-          "Microsoft.EntityFrameworkCore": "5.0.0-preview.7.20365.15",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0-preview.7.20365.15"
+          "Microsoft.EntityFrameworkCore": "5.0.0-preview.7.20365.15"
         },
         "runtime": {
-          "UUM.Model.dll": {}
+          "UUM.CORE.dll": {}
         }
       }
     }
@@ -2019,7 +2017,7 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
-    "UUM.Model/1.0.0": {
+    "UUM.CORE/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

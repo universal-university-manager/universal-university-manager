@@ -30,8 +30,8 @@
           "Microsoft.EntityFrameworkCore.Tools": "5.0.0-preview.7.20365.15",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.10.9",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.1.4",
+          "UUM.CORE": "1.0.0",
           "UUM.Infrastructure": "1.0.0",
-          "UUM.Model": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -2564,6 +2564,17 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
+      "UUM.CORE/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.0-preview.7.20365.15"
+        },
+        "runtime": {
+          "UUM.CORE.dll": {}
+        },
+        "compile": {
+          "UUM.CORE.dll": {}
+        }
+      },
       "UUM.Infrastructure/1.0.0": {
         "dependencies": {
           "EntityFramework": "6.4.4",
@@ -2571,26 +2582,13 @@
           "Microsoft.EntityFrameworkCore": "5.0.0-preview.7.20365.15",
           "Microsoft.EntityFrameworkCore.Analyzers": "5.0.0-preview.7.20365.15",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0-preview.7.20365.15",
-          "UUM.Model": "1.0.0"
+          "UUM.CORE": "1.0.0"
         },
         "runtime": {
           "UUM.Infrastructure.dll": {}
         },
         "compile": {
           "UUM.Infrastructure.dll": {}
-        }
-      },
-      "UUM.Model/1.0.0": {
-        "dependencies": {
-          "EntityFramework": "6.4.4",
-          "Microsoft.EntityFrameworkCore": "5.0.0-preview.7.20365.15",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0-preview.7.20365.15"
-        },
-        "runtime": {
-          "UUM.Model.dll": {}
-        },
-        "compile": {
-          "UUM.Model.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -5445,12 +5443,12 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
-    "UUM.Infrastructure/1.0.0": {
+    "UUM.CORE/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "UUM.Model/1.0.0": {
+    "UUM.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -19,7 +19,7 @@
             <summary>
             GET Method
             </summary>
-            <returns></returns>
+            <returns>Address information</returns>
         </member>
         <member name="M:UUM.API.Controllers.AddressController.GetAddressModel(System.Int32)">
             <summary>
@@ -28,7 +28,7 @@
             <param name="id">id instance</param>
             <returns></returns>
         </member>
-        <member name="M:UUM.API.Controllers.AddressController.PutAddressModel(System.Int32,UUM.Model.ViewModels.AddressModel)">
+        <member name="M:UUM.API.Controllers.AddressController.PutAddressModel(System.Int32,UUM.CORE.ViewModels.AddressModel)">
             <summary>
             PUT Method
             </summary>
@@ -36,7 +36,7 @@
             <param name="addressModel">addressModel instance</param>
             <returns></returns>
         </member>
-        <member name="M:UUM.API.Controllers.AddressController.PostAddressModel(UUM.Model.ViewModels.AddressModel)">
+        <member name="M:UUM.API.Controllers.AddressController.PostAddressModel(UUM.CORE.ViewModels.AddressModel)">
             <summary>
             POST Method
             </summary>
@@ -74,7 +74,7 @@
             <param name="id">id instance</param>
             <returns></returns>
         </member>
-        <member name="M:UUM.API.Controllers.CourseController.PutCourseModel(System.Int32,UUM.Model.ViewModels.CourseModel)">
+        <member name="M:UUM.API.Controllers.CourseController.PutCourseModel(System.Int32,UUM.CORE.ViewModels.CourseModel)">
             <summary>
             PUT Method
             </summary>
@@ -82,7 +82,7 @@
             <param name="courseModel">courseModel instance</param>
             <returns></returns>
         </member>
-        <member name="M:UUM.API.Controllers.CourseController.PostCourseModel(UUM.Model.ViewModels.CourseModel)">
+        <member name="M:UUM.API.Controllers.CourseController.PostCourseModel(UUM.CORE.ViewModels.CourseModel)">
             <summary>
             POST Method
             </summary>
@@ -120,7 +120,7 @@
             <param name="id"></param>
             <returns></returns>
         </member>
-        <member name="M:UUM.API.Controllers.LoginController.PutLoginModel(System.Int32,UUM.Model.ViewModels.LoginModel)">
+        <member name="M:UUM.API.Controllers.LoginController.PutLoginModel(System.Int32,UUM.CORE.ViewModels.LoginModel)">
             <summary>
             PUT Method
             </summary>
@@ -128,7 +128,7 @@
             <param name="loginModel"></param>
             <returns></returns>
         </member>
-        <member name="M:UUM.API.Controllers.LoginController.PostLoginModel(UUM.Model.ViewModels.LoginModel)">
+        <member name="M:UUM.API.Controllers.LoginController.PostLoginModel(UUM.CORE.ViewModels.LoginModel)">
             <summary>
             POST Method
             </summary>
@@ -153,7 +153,7 @@
             </summary>
             <param name="context"></param>
         </member>
-        <member name="M:UUM.API.Controllers.ReportCardController.PutReportCardModel(System.Int32,UUM.Model.ViewModels.ReportCardModel)">
+        <member name="M:UUM.API.Controllers.ReportCardController.PutReportCardModel(System.Int32,UUM.CORE.ViewModels.ReportCardModel)">
             <summary>
             PUT Method
             </summary>
@@ -161,7 +161,7 @@
             <param name="reportCardModel"></param>
             <returns></returns>
         </member>
-        <member name="M:UUM.API.Controllers.ReportCardController.PostReportCardModel(UUM.Model.ViewModels.ReportCardModel)">
+        <member name="M:UUM.API.Controllers.ReportCardController.PostReportCardModel(UUM.CORE.ViewModels.ReportCardModel)">
             <summary>
             POST Method
             </summary>
@@ -186,7 +186,7 @@
             </summary>
             <param name="context"></param>
         </member>
-        <member name="M:UUM.API.Controllers.StudentController.PutStudentModel(System.Int32,UUM.Model.ViewModels.StudentModel)">
+        <member name="M:UUM.API.Controllers.StudentController.PutStudentModel(System.Int32,UUM.CORE.ViewModels.StudentModel)">
             <summary>
             PUT Method
             </summary>
@@ -194,7 +194,7 @@
             <param name="studentModel"></param>
             <returns></returns>
         </member>
-        <member name="M:UUM.API.Controllers.StudentController.PostStudentModel(UUM.Model.ViewModels.StudentModel)">
+        <member name="M:UUM.API.Controllers.StudentController.PostStudentModel(UUM.CORE.ViewModels.StudentModel)">
             <summary>
             POST Method
             </summary>
@@ -219,7 +219,7 @@
             </summary>
             <param name="context"></param>
         </member>
-        <member name="M:UUM.API.Controllers.TeachingUnitController.PutTeachingUnitModel(System.Int32,UUM.Model.ViewModels.TeachingUnitModel)">
+        <member name="M:UUM.API.Controllers.TeachingUnitController.PutTeachingUnitModel(System.Int32,UUM.CORE.ViewModels.TeachingUnitModel)">
             <summary>
             PUT Method
             </summary>
@@ -227,7 +227,7 @@
             <param name="teachingUnitModel"></param>
             <returns></returns>
         </member>
-        <member name="M:UUM.API.Controllers.TeachingUnitController.PostTeachingUnitModel(UUM.Model.ViewModels.TeachingUnitModel)">
+        <member name="M:UUM.API.Controllers.TeachingUnitController.PostTeachingUnitModel(UUM.CORE.ViewModels.TeachingUnitModel)">
             <summary>
             POST Method
             </summary>
@@ -252,7 +252,7 @@
             </summary>
             <param name="context">Context instance</param>
         </member>
-        <member name="M:UUM.API.Controllers.UserController.PutUserModel(System.Int32,UUM.Model.ViewModels.UserModel)">
+        <member name="M:UUM.API.Controllers.UserController.PutUserModel(System.Int32,UUM.CORE.ViewModels.UserModel)">
             <summary>
             PUT Method
             </summary>
@@ -260,7 +260,7 @@
             <param name="userModel">userModel instance</param>
             <returns></returns>
         </member>
-        <member name="M:UUM.API.Controllers.UserController.PostUserModel(UUM.Model.ViewModels.UserModel)">
+        <member name="M:UUM.API.Controllers.UserController.PostUserModel(UUM.CORE.ViewModels.UserModel)">
             <summary>
             POST Method
             </summary>

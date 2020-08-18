@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using UUM.Infrastructure.Context;
-using UUM.Model.ViewModels;
+using UUM.CORE.ViewModels;
 
 namespace UUM.WEB.WebViewControllers
 {

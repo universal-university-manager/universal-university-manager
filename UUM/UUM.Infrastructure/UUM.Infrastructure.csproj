@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\UUM.Model\UUM.Model.csproj" />
+    <ProjectReference Include="..\UUM.CORE\UUM.CORE.csproj" />
   </ItemGroup>
 
 </Project>

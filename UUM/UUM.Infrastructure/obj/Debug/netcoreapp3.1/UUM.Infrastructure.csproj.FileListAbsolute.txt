@@ -3,8 +3,8 @@ C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\UUM.Infrastructure\bin\Debug\ne
 C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\UUM.Infrastructure\bin\Debug\netcoreapp3.1\UUM.Infrastructure.runtimeconfig.dev.json
 C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\UUM.Infrastructure\bin\Debug\netcoreapp3.1\UUM.Infrastructure.dll
 C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\UUM.Infrastructure\bin\Debug\netcoreapp3.1\UUM.Infrastructure.pdb
-C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\UUM.Infrastructure\bin\Debug\netcoreapp3.1\UUM.Model.dll
-C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\UUM.Infrastructure\bin\Debug\netcoreapp3.1\UUM.Model.pdb
+C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\UUM.Infrastructure\bin\Debug\netcoreapp3.1\UUM.CORE.dll
+C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\UUM.Infrastructure\bin\Debug\netcoreapp3.1\UUM.CORE.pdb
 C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\UUM.Infrastructure\obj\Debug\netcoreapp3.1\UUM.Infrastructure.csprojAssemblyReference.cache
 C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\UUM.Infrastructure\obj\Debug\netcoreapp3.1\UUM.Infrastructure.AssemblyInfoInputs.cache
 C:\Users\jbezerra\Documents\JHON\APS\uumcode\UUM\UUM.Infrastructure\obj\Debug\netcoreapp3.1\UUM.Infrastructure.AssemblyInfo.cs

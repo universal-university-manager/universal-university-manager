@@ -30,72 +30,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {
-              "C:\\Users\\jbezerra\\Documents\\JHON\\APS\\uumcode\\UUM\\UUM.Model\\UUM.Model.csproj": {
-                "projectPath": "C:\\Users\\jbezerra\\Documents\\JHON\\APS\\uumcode\\UUM\\UUM.Model\\UUM.Model.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.0-preview.7.20365.15, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\jbezerra\\Documents\\JHON\\APS\\uumcode\\UUM\\UUM.Model\\UUM.Model.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\jbezerra\\Documents\\JHON\\APS\\uumcode\\UUM\\UUM.Model\\UUM.Model.csproj",
-        "projectName": "UUM.Model",
-        "projectPath": "C:\\Users\\jbezerra\\Documents\\JHON\\APS\\uumcode\\UUM\\UUM.Model\\UUM.Model.csproj",
-        "packagesPath": "C:\\Users\\jbezerra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jbezerra\\Documents\\JHON\\APS\\uumcode\\UUM\\UUM.Model\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\jbezerra\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://repo.rdisoftware.com/artifactory/api/nuget/rdi-nuget-virtual": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
@@ -108,15 +42,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "EntityFramework": {
-              "target": "Package",
-              "version": "[6.4.4, )"
-            },
             "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.0-preview.7.20365.15, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.0-preview.7.20365.15, )"
             }
